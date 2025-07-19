@@ -10,67 +10,67 @@ Mr. Sourabh Utkar
 Ms. Manjushree Gangasagar
 
 📌 Overview
-This case study is part of a practical training session introducing Green AI, Machine Learning (ML), and Deep Learning (DL) concepts with an emphasis on energy-efficient and sustainable AI development in healthcare. The project aligns with UN Sustainable Development Goal 3 (SDG 3): Good Health and Well-being.
+This case study is part of a training session focused on introducing Green AI, Machine Learning (ML), and Deep Learning (DL) with an emphasis on sustainable and health-focused AI development. It supports UN SDG 3: Ensure healthy lives and promote well-being for all at all ages.
 
-🎯 Objectives
-Understand fundamentals of Green AI and its importance.
+🎯 Key Objectives
+Understand Green AI and energy-efficient modeling principles.
 
-Learn basic ML and DL techniques using real-world healthcare data.
+Learn ML and DL basics using real-world health datasets.
 
-Train predictive models for health outcomes (heart disease).
+Train predictive models to evaluate health outcomes.
 
-Visualize performance and promote ethical AI practices.
+Visualize model performance and promote ethical AI.
 
-🗂 Dataset
-Dataset Name: Heart Disease Dataset
+🗂 Dataset Description
+Dataset: Heart Disease UCI Dataset
 Source: UCI Machine Learning Repository
-Size: 303 records × 14 features
-Features:
+Size: 303 rows × 14 columns
+Features: Age, Sex, Chest Pain Type (cp), Resting BP (trestbps), Cholesterol (chol), Fasting Blood Sugar (fbs), Rest ECG, Max Heart Rate (thalach), Exercise Angina (exang), etc.
+Target: 1 (Heart Disease) or 0 (No Disease)
 
-Age, Sex, Chest Pain Type (cp), Resting Blood Pressure (trestbps), Cholesterol (chol), Fasting Blood Sugar (fbs), etc.
+🧪 Approach and Methodology
+Steps Followed:
 
-Target: 1 (Heart Disease Present), 0 (No Heart Disease)
-
-🧪 Methodology
-Data Preprocessing
+Data Cleaning and Preprocessing
 
 Exploratory Data Analysis (EDA)
 
 Feature Scaling
 
-Model Training
+Model Training with ML Algorithms
 
-Performance Evaluation
+Evaluation using Accuracy and Loss Graphs
 
-Models Used:
-Logistic Regression (Baseline model)
+Algorithms Used:
 
-Random Forest Classifier (Ensemble method)
+Logistic Regression: Simple and interpretable baseline model
 
-Neural Network using TensorFlow/Keras (Energy-conscious design)
+Random Forest Classifier: Robust ensemble method
 
-📊 Accuracy
-Achieved an accuracy of 85–87% across models.
+Neural Network (Keras/TensorFlow): Lightweight DL model using Green AI techniques (fewer epochs and neurons)
+
+📊 Results
+Accuracy: 85–87%
+
+R² Score: -0.810
 
 ✅ Conclusion
-Demonstrated practical use of AI in healthcare.
+This project showcased how AI and ML can be applied to healthcare using energy-conscious methods. The models provided reliable predictions while maintaining low resource consumption and ethical standards.
 
-Emphasized low-power, ethical AI modeling.
+🔮 Future Work
+Apply energy-efficient model pruning
 
-Successfully predicted heart disease with standard and DL approaches.
+Use larger and multi-class health datasets
 
-🔮 Future Scope
-Introduce energy-efficient model pruning.
+Add Explainable AI (XAI) for better transparency
 
-Expand to multi-class health datasets.
+Explore CNNs for medical image analysis
 
-Integrate Explainable AI (XAI).
-
-Explore CNNs for medical image analysis.
-
-🔗 References
+🔗 Resources & References
 UCI Heart Disease Dataset
 
 UN SDG 3 – Good Health and Well-being
 
-Green AI Research Resources
+GitHub Repository
+
+Green AI Research
